@@ -28,3 +28,8 @@ function test1() {
 }
 test1();
 
+//literals
+let str = "hello";
+console.log(str);
+str = str + " " + "world";
+console.log(str);
