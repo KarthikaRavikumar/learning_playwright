@@ -1,7 +1,9 @@
-// FizzBuzz: Print numbers 1-100
-// - Multiples of 3   → "Fizz"
-// - Multiples of 5   → "Buzz"
-// - Multiples of 3&5 → "FizzBuzz"
+// FizzBuzz Program using if-else statements
+// Rules:
+//   - Multiples of 3       → print "Fizz"
+//   - Multiples of 5       → print "Buzz"
+//   - Multiples of both 3 & 5 → print "FizzBuzz"
+//   - Otherwise            → print the number
 
 for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
