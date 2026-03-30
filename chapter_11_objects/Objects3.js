@@ -1,5 +1,5 @@
 const calculator = {
-    value: 0,
+    value: 10,
     add(n) {
         this.value += n;
         return this;

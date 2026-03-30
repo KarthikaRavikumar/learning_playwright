@@ -28,7 +28,7 @@ console.log(url.replace(/app/g, "qa"));
 // Splitting & Joining
 "pass,fail,skip".split(",");  // ["pass", "fail", "skip"]
 "hello".split("");  // ["h","e","l","l","o"]
-
+console.log("karthika".split(""));
 "test_login_pass".split("_").join(" "); // "test login pass"
 
 
