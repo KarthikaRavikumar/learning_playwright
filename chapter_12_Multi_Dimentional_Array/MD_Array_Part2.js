@@ -18,10 +18,13 @@ grid[0][0] = 99;
 console.log(grid[0][0]);
 console.log(grid);
 
+//length will always be the number of rows
+//also row.length() will give you the number of columns eg: line 25
+
 console.log(grid.length);   // 3 — number of rows
 console.log(grid[0].length);  // 3 — number of cols in row 0
 
-console.log(grid[grid.length - 1][grid[0].length - 1]); // Last element 
+console.log(grid[grid.length - 1][grid[0].length - 1]); // Last element (3-1,3-1) -> grid[2][2]
 // grid[2][2];
 
 let testMatrix = [
