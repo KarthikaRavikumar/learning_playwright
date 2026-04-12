@@ -7,7 +7,7 @@ function placeOrder(item, callback) {
 
 // Define
 function print() {
-    console.log("Normal Fn - Done with the order");
+    console.log("This is the callback fn for placeOrder");
 }
 
 // First Way
