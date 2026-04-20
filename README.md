@@ -139,29 +139,35 @@ npx ts-node chapter_18_TypeScript/TS_HelloWorld.ts
 
 ---
 
-## 📂 Recent Updates (April 17, 2026)
+## 📂 Recent Updates (April 20, 2026)
 
-1. **TypeScript Access Modifiers** (Chapter 22)
+1. **Fixed Playwright Configuration** (April 20)
+   - Removed markdown code fence markers from playwright.config.ts
+   - Configuration now properly formatted for test execution
+   - Multi-browser support (chromium, firefox, webkit) verified
+
+2. **TypeScript Access Modifiers** (Chapter 22)
    - Comprehensive exercise with 5 sections
    - Real-world examples (Vehicle, BankAccount)
    - Protected behavior across files guide
 
-2. **Enhanced Interface Examples** (Chapter 19)
+3. **Enhanced Interface Examples** (Chapter 19)
    - Index signatures
    - React hooks patterns
    - Class-based interfaces
 
-3. **Enums Examples** (Chapter 20)
+4. **Enums Examples** (Chapter 20)
    - API response handling
    - Browser selection patterns
 
-4. **Generics** (Chapter 21)
+5. **Generics** (Chapter 21)
    - Generic classes and utilities
    - API response typing
 
-5. **Test Automation**
-   - Login feature test suite (6 test cases)
+6. **Test Automation**
+   - Login feature test suite (6 test cases, 100% pass rate)
    - Test reports and documentation
+   - Proper playwright.config.ts configuration
 
 ---
 
@@ -203,4 +209,4 @@ npx ts-node chapter_18_TypeScript/TS_HelloWorld.ts
 
 Repository: https://github.com/KarthikaRavikumar/learning_playwright
 
-**Last Updated**: April 17, 2026
+**Last Updated**: April 20, 2026
